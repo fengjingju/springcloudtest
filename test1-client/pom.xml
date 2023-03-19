@@ -10,9 +10,6 @@
     <artifactId>test1-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>test1-client</name>
-    <modules>
-        <module>../test1</module>
-    </modules>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>8</java.version>
@@ -21,6 +18,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
         </dependency>
 
         <dependency>
