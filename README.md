@@ -1,3 +1,5 @@
 # springcloudtest
 
-sql脚本在根目录sql文件夹下
+|-other
+    <br>|-sql脚本
+    <br>|-software:spring cloud alibaba所需软件
